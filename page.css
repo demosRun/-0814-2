@@ -472,12 +472,6 @@ em{font-style:normal;}
 	width: 100%;
 }
 
-.min .info-text {
-	position: absolute;
-	bottom: 13%;
-	right: 3%;
-	color: white;
-}
 
 .min .one .hand {
 	position: absolute;
@@ -497,4 +491,14 @@ em{font-style:normal;}
 	100% {
 		right: 18%;
 	}
+}
+
+.min-top-bar {
+	background-color: #c21f0d;
+	color: white;
+	display: flex;
+}
+
+.min-top-bar-item {
+	
 }
