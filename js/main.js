@@ -1,7 +1,7 @@
 var ratio = window.innerWidth / window.innerHeight
 if (ratio < 1) {
     document.body.classList.add('min')
-    var mySwiper = new Swiper(document.body,{
+    var mySwiper = new Swiper(document.body, {
     })
     if (ratio < 0.56) {
         $('.one')[0].style.backgroundSize = 'auto 100%'
