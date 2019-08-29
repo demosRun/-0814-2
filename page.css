@@ -324,6 +324,7 @@ em{font-style:normal;}
 	height: auto;
 	overflow: hidden;
 	margin: 2%;
+	text-align: center;
 }
 
 .min .pic3 {
@@ -387,7 +388,7 @@ em{font-style:normal;}
 }
 
 .min .link span {
-	width: 50%;
+	width: 33.33%;
 	float: left;
 	margin: 0;
 }
@@ -558,4 +559,55 @@ em{font-style:normal;}
 
 .min .four .w980.tit2.clearfix {
 	display: none;
+}
+
+.min-logo {
+	display: none;
+}
+
+.min .min-logo {
+	display: block;
+	display: flex;
+	margin: 20px 0;
+	justify-content: center;
+}
+
+.min .min-logo p {
+	display: block;
+	width: 33.33%;
+	height: 100%;
+	text-align: center;
+}
+
+.min .min-logo img {
+	display: block;
+	margin: 0 auto;
+}
+
+.min #copyright {
+	padding: 20px 0;
+}
+
+.min-tip {
+	display: none;
+}
+
+.min .min-tip {
+	position: fixed;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 40px;
+	display: block;
+	animation: tip 2s forwards infinite;
+}
+
+@keyframes tip {
+	from {
+		opacity: 0.5;
+	}
+	to {
+		opacity: 1;
+	}
 }
