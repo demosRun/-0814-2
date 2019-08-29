@@ -153,6 +153,7 @@ em{font-style:normal;}
 
 .one {
 	display: none;
+	background-position-x: center;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-image: url('./images/min-one-bg.jpg');
@@ -550,7 +551,7 @@ em{font-style:normal;}
 .nine2 a .down {
 	width: 30%;
 	position: absolute;
-	top: 18%;
+	top: 21%;
 	left: 41%;
 	right: 0;
 }
