@@ -566,9 +566,8 @@ em{font-style:normal;}
 }
 
 .min .min-logo {
-	display: block;
 	display: flex;
-	margin: 20px 0;
+	background-color: #f3eeee;
 	justify-content: center;
 }
 
@@ -582,10 +581,15 @@ em{font-style:normal;}
 .min .min-logo img {
 	display: block;
 	margin: 0 auto;
+	width: 60px;
+	height: 60px;
 }
 
 .min #copyright {
-	padding: 20px 0;
+	background-color: #f3eeee;
+	padding-bottom: 23px;
+	padding-top: 18px;
+	font-size: 10px;
 }
 
 .min-tip {
@@ -599,15 +603,42 @@ em{font-style:normal;}
 	bottom: 0;
 	margin: auto;
 	width: 40px;
-	display: block;
 	animation: tip 2s forwards infinite;
 }
 
 @keyframes tip {
 	from {
-		opacity: 0.5;
+		opacity: 0.2;
 	}
 	to {
-		opacity: 1;
+		opacity: 0.8;
 	}
+}
+
+.min .w980.link.clearfix img {
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.min-info-text {
+	display: none;
+}
+
+.min .min-info-text {
+	display: block;
+	padding: 20px 0;
+	background-color: #f3eeee;
+}
+
+.min .min-info-text img {
+	display: block;
+	margin: 0 auto;
+}
+
+.min .ten {
+	background-color: #f3eeee;
+}
+
+.min .ten .w980 {
+	background-color: white;
 }
