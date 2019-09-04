@@ -30,7 +30,7 @@ em{font-style:normal;}
 .header em,.header em a:link,.header em a:visited,.header em a:hover{color:#666;}
 /*top*/
 .top{background:url(images/top.jpg) no-repeat top center;}
-.top_h{height: 446px;}
+.top_h{height: 496px;}
 /*swiper*/
 .swiper-container-p1{position: relative;width:980px;height:486px;margin: 0 auto;overflow: hidden;}
 .swiper-container-p1 .swiper-slide{width:980px;height:486px;position: relative;}
@@ -552,7 +552,7 @@ em{font-style:normal;}
 .nine2 a .down {
 	width: 30%;
 	position: absolute;
-	top: 21%;
+	top: 45vw;
 	left: 41%;
 	right: 0;
 }
@@ -598,12 +598,22 @@ em{font-style:normal;}
 
 .min .min-tip {
 	position: fixed;
-	right: 10px;
-	top: 0;
-	bottom: 0;
+	background-color: #dcd6d6;
+	color: #333;
+	height: 20px;
+	width: 160px;
+	font-size: 17px;
+	line-height: 20px;
+	top: unset;
+	right: 0px;
+	bottom: 10px;
 	margin: auto;
-	width: 40px;
 	animation: tip 2s forwards infinite;
+}
+
+.min .min-tip img {
+	width: 20px;
+	height: 20px;
 }
 
 @keyframes tip {
@@ -641,4 +651,14 @@ em{font-style:normal;}
 
 .min .ten .w980 {
 	background-color: white;
+}
+
+.min .w980.link.clearfix {
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+.pc .list1 li {
+	overflow: hidden;
+	height: 30px;
 }

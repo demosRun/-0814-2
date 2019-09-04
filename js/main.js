@@ -3,11 +3,10 @@ if (ratio < 1) {
     document.body.classList.add('min')
     var mySwiper = new Swiper(document.body, {
         onSlideChangeEnd: function (e) {
-            console.log(e.activeIndex)
             if (e.activeIndex == 9 || e.activeIndex == 0) {
-                $('.min-tip').hide()
+                $('.min-tip')[0].style.display = 'none'
             } else {
-                $('.min-tip').show()
+                $('.min-tip')[0].style.display = 'flex'
             }
         }
     })
